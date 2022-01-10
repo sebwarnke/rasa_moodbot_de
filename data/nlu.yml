@@ -1,0 +1,82 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hallo
+    - guten morgen
+    - moin
+    - moinsen
+    - servus
+    - guten tag
+    - guten abend
+    - tach
+    - tachchen
+- intent: goodbye
+  examples: |
+    - tschüss
+    - tschüß
+    - tschüßi
+    - tschüssi
+    - auf wiedersehen
+    - machs gut
+    - mach's gut
+    - gute nacht
+    - schönen tag noch
+    - adios
+    - aufwiedersehen
+    - wiedersehen
+    - wiederhören
+    - bis dann
+    - bis später
+    - ciao
+    - tschau
+- intent: affirm
+  examples: |
+    - ja
+    - j
+    - klar
+    - na klar
+    - klaro
+    - klingt gut
+    - korrekt
+    - richtig
+    - passt
+- intent: deny
+  examples: |
+    - nein
+    - n
+    - niemals
+    - auf keinen fall
+    - bloß nicht
+    - nicht
+    - Ich glaube nicht
+    - Ich mag das nicht.
+    - nicht wirklich
+- intent: mood_great
+  examples: |
+    - perfekt
+    - toll
+    - großartig
+    - ausgezeichnet
+    - wie ein fisch im wasser
+    - wunderbar
+    - Ich fühle mich sehr gut
+    - Ich fühl mich großartig
+    - Ich könnte die Welt erobern
+- intent: mood_unhappy
+  examples: |
+    - Ich hatte einen schrecklichen Tag
+    - Ich bin traurig
+    - Ich fühle micht nicht gut
+    - Ich bin enttäuscht
+    - super traurig
+    - traurig
+    - sehr traurig
+    - niedergeschlagen
+    - unglücklich
+    - nicht gut
+    - schlecht
+    - Ich fühle mich schlecht
